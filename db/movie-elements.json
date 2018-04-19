@@ -1,0 +1,220 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "categoryId": "01",
+      "name": "Roxie Roker ",
+      "cost": "10,000.00"
+    },
+    {
+      "id": "2",
+      "categoryId": "01",
+      "name": "Cicely Tyson ",
+      "cost": "300,000.00"
+    },
+    {
+      "id": "3",
+      "categoryId": "01",
+      "name": "Dorothy Dandridge ",
+      "cost": "280,000.000"
+    },
+    {
+      "id": "4",
+      "categoryId": "01",
+      "name": "Redd Foxx",
+      "cost": "400,000.00"
+    },
+    {
+      "id": "5",
+      "categoryId": "01",
+      "name": "550,000.00",
+      "cost": "Sammy Davis, Jr"
+    },
+    {
+      "id": "6",
+      "categoryId": "01",
+      "name": "Robert Guillaume",
+      "cost": "150,000.00"
+    },
+    {
+      "id": "7",
+      "categoryId": "01",
+      "name": "Maya Angelou",
+      "cost": "100,00.00"
+    },
+    {
+      "id": "8",
+      "categoryId": "01",
+      "name": "Sidney Poitier",
+      "cost": "400,000.00"
+    },
+    {
+      "id": "9",
+      "categoryId": "01",
+      "name": "Eartha Kitt",
+      "cost": "80,000.00"
+    },
+    {
+      "id": "10",
+      "categoryId": "02",
+      "name": "Cow",
+      "cost": "1,000.00"
+    },
+    {
+      "id": "11",
+      "categoryId": "02",
+      "name": "Pig",
+      "cost": "500.00"
+    },
+    {
+      "id": "12",
+      "categoryId": "02",
+      "name": "Ostrich",
+      "cost": "10,000.00"
+    },
+    {
+      "id": "13",
+      "categoryId": "02",
+      "name": "Unicorn",
+      "cost": "1,000,000.00"
+    },
+    {
+      "id": "14",
+      "categoryId": "02",
+      "name": "Dog",
+      "cost": "80.00"
+    },
+    {
+      "id": "15",
+      "categoryId": "02",
+      "name": "Caterpillar",
+      "cost": "100.00"
+    },
+    {
+      "id": "16",
+      "categoryId": "02",
+      "name": "Bat",
+      "cost": "250.00"
+    },
+    {
+      "id": "17",
+      "categoryId": "02",
+      "name": "Men's Bathroom",
+      "cost": "100.00"
+    },
+    {
+      "id": "18",
+      "categoryId": "02",
+      "name": "Playground",
+      "cost": "500.00"
+    },
+    {
+      "id": "19",
+      "categoryId": "03",
+      "name": "Paris",
+      "cost": "100,00.00"
+    },
+    {
+      "id": "20",
+      "categoryId": "03",
+      "name": "NewYork",
+      "cost": "80,000.00"
+    },
+    {
+      "id": "21",
+      "categoryId": "03",
+      "name": "Ohio",
+      "cost": "25,000.00"
+    },
+    {
+      "id": "22",
+      "categoryId": "03",
+      "name": "Detroit",
+      "cost": "300.00"
+    },
+    {
+      "id": "23",
+      "categoryId": "03",
+      "name": "Japan",
+      "cost": "20,000.00"
+    },
+    {
+      "id": "24",
+      "categoryId": "03",
+      "name": "My Back Yard",
+      "cost": "60,000.00"
+    },
+    {
+      "id": "25",
+      "categoryId": "03",
+      "name": "Printer's Alley",
+      "cost": "5.00"
+    },
+    {
+      "id": "26",
+      "categoryId": "03",
+      "name": "Dairy Queens",
+      "cost": "34.00"
+    },
+    {
+      "id": "27",
+      "categoryId": "03",
+      "name": "Italy",
+      "cost": "40,000.00"
+    },
+    {
+      "id": "28",
+      "categoryId": "04",
+      "name": "Animated",
+      "cost": "100.00"
+    },
+    {
+      "id": "29",
+      "categoryId": "04",
+      "name": "Optic Allusion",
+      "cost": "8,000.00"
+    },
+    {
+      "id": "30",
+      "categoryId": "04",
+      "name": "pixelated illusion",
+      "cost": "50.00"
+    },
+    {
+      "id": "31",
+      "categoryId": "04",
+      "name": "Super Powers",
+      "cost": "100,000.00"
+    },
+    {
+      "id": "32",
+      "categoryId": "04",
+      "name": "Miniature effects.",
+      "cost": "25,000.00"
+    },
+    {
+      "id": "33",
+      "categoryId": "04",
+      "name": "CGI",
+      "cost": "90,000"
+    },
+    {
+      "id": "34",
+      "categoryId": "04",
+      "name": "slit-scan",
+      "cost": "10,000.00"
+    },
+    {
+      "id": "35",
+      "categoryId": "04",
+      "name": "front projection effect",
+      "cost": "8,000.00"
+    },
+    {
+      "id": "36",
+      "categoryId": "04",
+      "name": "Dolly zoom",
+      "cost": "20.00"
+    }
+  ]
+}
