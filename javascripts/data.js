@@ -1,4 +1,8 @@
+<<<<<<< setup
 let elements = [];
+=======
+const elements = [];
+>>>>>>> master
 const categories = [];
 
 const getCategories = (categoriesArray) => {
@@ -10,12 +14,21 @@ const setCategories = (categoriesArray) => {
   categories = categoriesArray;
 };
 
+<<<<<<< setup
 const getElements = (elementsArray) => {
   return elements;
 };
 
 const setElements = (elementsArray) => {
   elements = elementsArray;
+=======
+const setElements = (elementsArray) => {
+  elements = elementsArray;
+};
+
+const getElements = (elementsArray) => {
+  return elements;
+>>>>>>> master
 };
 
 const getElementsByCategories = (categoriesId) => {
