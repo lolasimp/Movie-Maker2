@@ -1,3 +1,3 @@
-const dataGateKeeper = require('../dataGateKeeper.js');
+const dataGateKeeper = require('./dataGateKeeper.js');
 
 dataGateKeeper.initializer();
