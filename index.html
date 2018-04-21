@@ -10,23 +10,38 @@
   <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
-  <div id="title"><h1>Movie Maker</h1>
-  <input id="budget" type="text">
-  </div>
-  <div>
-  <h2>Enter a budget</h2>
+    <header class='container-fluid'>
+        <div class='row'>
+          <h1 class='col-md-3'>Movie Maker</h1>
+          <div class="col-md-5 col-md-offset-4 budget-btn">
+              <div class="input-area">
+                <input id='budget-field' type="number" class="form-control" placeholder="Enter Budget">
+                <span class="input-group-btn">
+                  <button id='budget-btn' class="btn btn-default" type="button">Set Budget</button>
+                </span>
+              </div><!-- /input-group -->
+            </div><!-- /.col-lg-6 -->
+          <hr class='col-xs-12'/>
+        </div>
+      </header>
   <div class="progress">
       <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
         <span class="sr-only"></span>
       </div>
     </div>
   </div>
-  <div class="row">
-      <div class="col-sx-6">
-      <section id='categories'></section>
-      <section id=""></section>
+  <div class='container-fluid'>
+      <div id='output' class='col-md-8'></div>
+
+      <div class='col-sm-4'>
+          <div class="panel panel-default">
+              <div class="panel-body">
+                <h1 class='text-center'><span id='results-title' class='text-success'>$0</span></h1>
+                <div id='results'></div>
+              </div>
+            </div>
       </div>
-      </div>
+    </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="./dist/app.js"></script>
