@@ -1,8 +1,8 @@
-const loadElements = (loadFunction, failToLoad) => {
+const loadElements = (onLoadFunction, failToLoad) => {
   const myRequest = new XMLHttpRequest();
-  myRequest.addEventListener('load', loadFunction);
+  myRequest.addEventListener('load', onLoadFunction);
   myRequest.addEventListener('error', failToLoad);
-  myRequest.open('GET', '../db/movie-elements.json');
+  myRequest.open('GET', '../db/elements.json');
   myRequest.send();
 };
 
