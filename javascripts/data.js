@@ -1,14 +1,14 @@
 let elements = [];
-let categories = [];
+// let categories = [];
 
-const getCategories = () => {
-  return categories;
-  // console.log('getCategories', categories);
-};
+// const setCategories = (categoriesArray) => {
+//   categories = categoriesArray;
+// };
 
-const setCategories = (categoriesArray) => {
-  categories = categoriesArray;
-};
+// const getCategories = () => {
+//   return categories;
+//   // console.log('getCategories', categories);
+// };
 
 const setElements = (elementsArray) => {
   elements = elementsArray;
@@ -19,22 +19,22 @@ const getElements = () => {
 
 };
 
-let allElementCost = 0;
-const setTotal = (listOfElements) => {
-  listOfElements.forEach((listOfElements) => {
-    allElementCost += listOfElements.cost;
-  });
-};
+// let allElementCost = 0;
+// const setTotal = (listOfElements) => {
+//   listOfElements.forEach((listOfElements) => {
+//     allElementCost += listOfElements.cost;
+//   });
+// };
 
-const getTotal = () => {
-  return allElementCost;
-};
+// const getTotal = () => {
+//   return allElementCost;
+// };
 
 module.exports = {
-  getCategories,
-  setCategories,
+  // getCategories,
+  // setCategories,
   setElements,
   getElements,
-  setTotal,
-  getTotal,
+  // setTotal,
+  // getTotal,
 };
