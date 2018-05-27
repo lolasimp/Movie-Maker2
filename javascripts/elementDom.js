@@ -7,15 +7,13 @@ const printToDom  = (theString, id) => {
 // const categories = data.getCategories();
 // const elements = data.getElements();
 
-const printBothToDom = (elements, categories) => {
+const printAll = (elements, categories) => {
   let domString = '';
   categories.forEach((category) => {
     domString += `<div class="col-sm-6 category">`;
     domString += `<h2 data-category-id="${category.id}">${category.categoryName}</h2>`;
     elements.forEach((element) => {
-      console.log('element?', element);
       if (element.categoryId === category.id) {
-        console.log('category id', category.id);
         domString += `<div class="col-sm-4 elements">`;
         domString += `<div class="checkbox">`;
         domString += `<input id='${element.id}' class="element" type="checkbox">`;
@@ -30,4 +28,4 @@ const printBothToDom = (elements, categories) => {
   });
 };
 
-module.exports = printBothToDom;
+module.exports = printAll;
