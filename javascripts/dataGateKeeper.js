@@ -1,9 +1,8 @@
 const data = require('./data');
 const loadCategories = require('./categories');
 const loadElements = require('./elements');
-// const categoryDom = require('./categoryDom');
 const elementDom = require('./elementDom');
-// const buttonEvent = require('./buttonEvent');
+// const buttonEvent = require('./buttonEvents');
 
 let categories = [];
 
@@ -19,7 +18,6 @@ const getCategories = () => {
 const onLoadFunction = function () {
   const categoriesData = JSON.parse(this.responseText).categories;
   setCategories(categoriesData);
-  // categoryDom(categoriesData);
 };
 
 const whenElementsLoad = function () {
