@@ -1,15 +1,16 @@
 // const dataGateKeeper = require('./dataGateKeeper');
 // const data = require('./data');
+// const progressBar
 
-// const budgetButton = document.getElementById('budget-btn');
-// const resultsCost = document.getElementById('results-cost');
+// // const budgetButton = document.getElementById('budget-btn');
+// // const resultsCost = document.getElementById('results-cost');
 
-const checkedBox = (e) => {
-  if ($.checked === e.cost) {
-    console.log(e);
-  }
-};
+// const checkedBox = (e) => {
+//   if ($.checked === e.cost) {
+//     console.log(e);
+//   }
+// };
 
-module.exports = {
-  checkedBox,
-};
+// module.exports = {
+//   checkedBox,
+// };

@@ -1,5 +1,5 @@
 // const data = require('./data');
-// // const printElements = require('./printElements');
+// // const elementDom = require('./elementDom');
 // // const progressBar = require('./progressBar');
 
 // const element = [];
@@ -14,8 +14,8 @@
 //       element.push(element);
 //     };
 //   });
-//   data.setTotal(element);
-//   printElementsToDom.printElements(element);
+//   data.setNowCost(element);
+//   printElementsToDom.elementDom(element);
 //   progressBar(element);
 // };
 
