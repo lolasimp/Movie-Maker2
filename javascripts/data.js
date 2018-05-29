@@ -1,5 +1,7 @@
 let elements = [];
-// let budget = 0;
+let budget = 0;
+let nowCost = [];
+let totalCostVal = 0;
 // let totalAmount = [];
 
 const setElements = (elementsArray) => {
@@ -11,29 +13,46 @@ const getElements = () => {
 
 };
 
-// const getBudget = () => {
-//   return budget;
-// };
-
-// const setBudget = () => {
-//   budget = budgetArray;
-// };
-
-let allElementCost = 0;
-const setTotal = (listOfElements) => {
-  console.log(listOfElements);
-  listOfElements.forEach((listOfElements) => {
-    allElementCost += listOfElements.cost;
-  });
+const getBudget = () => {
+  return budget;
 };
 
-const getTotal = () => {
-  return allElementCost;
+const setBudget = (budgetArray) => {
+  budget = budgetArray;
+};
+
+const setNowCost = (nowCost) => {
+  console.log(nowCost);
+  nowCost.push(nowCost);
+};
+
+const removeNowCost = (removedId) => {
+  nowCost = nowCost.filter(c => c.id !== removedId);
+};
+
+const getNowCost = () => {
+  return nowCost;
+};
+
+const totalCost = () => {
+  totalCostVal = nowCost.reduce((totalCost, nowCost) => {
+    return totalCost + nowCost.cost;
+  }, 0);
+  return totalCostVal;
+};
+
+const getTotalCostVal = () => {
+  return totalCostVal;
 };
 
 module.exports = {
   setElements,
   getElements,
-  setTotal,
-  getTotal,
+  getBudget,
+  setBudget,
+  setNowCost,
+  removeNowCost,
+  getNowCost,
+  totalCost,
+  getTotalCostVal,
 };

@@ -10,11 +10,11 @@ const printToDom  = (theString, id) => {
 const printAll = (elements, categories) => {
   let domString = '';
   categories.forEach((category) => {
-    domString += `<div class="col-sm-6 category">`;
+    domString += `<div class="col-sm-11 category">`;
     domString += `<h2 data-category-id="${category.id}">${category.categoryName}</h2>`;
     elements.forEach((element) => {
       if (element.categoryId === category.id) {
-        domString += `<div class="col-sm-4 elements">`;
+        domString += `<div class="col-sm-3 elements">`;
         domString += `<div class="checkbox">`;
         domString += `<input id='${element.id}' class="element" type="checkbox">`;
         domString += `<label>${element.name}</label>`;
