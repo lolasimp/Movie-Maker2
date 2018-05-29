@@ -1,5 +1,4 @@
 let elements = [];
-// let budget = 0;
 // let totalAmount = [];
 
 const setElements = (elementsArray) => {
@@ -19,21 +18,21 @@ const getElements = () => {
 //   budget = budgetArray;
 // };
 
-let allElementCost = 0;
-const setTotal = (listOfElements) => {
-  console.log(listOfElements);
-  listOfElements.forEach((listOfElements) => {
-    allElementCost += listOfElements.cost;
-  });
-};
+// let allElementCost = 0;
+// const setTotal = (listOfElements) => {
+//   console.log(listOfElements);
+//   listOfElements.forEach((listOfElements) => {
+//     allElementCost += listOfElements.cost;
+//   });
+// };
 
-const getTotal = () => {
-  return allElementCost;
-};
+// const getTotal = () => {
+//   return allElementCost;
+// };
 
 module.exports = {
   setElements,
   getElements,
-  setTotal,
-  getTotal,
+  // setTotal,
+  // getTotal,
 };
